@@ -1,0 +1,149 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.impromptu.beacon.MainActivity" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+	    android:layout_height="fill_parent">
+        
+        <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="5dp"
+	        android:orientation="vertical">
+	                
+			<TextView 
+			    android:layout_width="fill_parent"
+	        	android:layout_height="wrap_content"
+	        	android:textSize="20sp"
+	        	android:background="#333333"
+	        	android:textColor="#FFFFFF"
+	        	android:padding="5dp"
+	        	android:text="@string/title_main"/>
+	
+			<TextView 
+			    android:layout_width="fill_parent"
+	        	android:layout_height="wrap_content"
+	        	android:textSize="14sp"
+	        	android:textColor="#333333"
+	        	android:paddingTop="5dp"
+	        	android:paddingLeft="5dp"
+	        	android:text="@string/title_deviceid"/>
+			
+			<TextView 
+			    android:id="@+id/txtDeviceID"
+			    android:layout_width="fill_parent"
+	        	android:layout_height="wrap_content"
+	        	android:textSize="12sp"
+	        	android:textColor="#333333"
+	        	android:paddingLeft="5dp"
+	        	android:text="DEVICE ID GOES HERE"/>
+			
+			<TextView 
+			    android:layout_width="fill_parent"
+	        	android:layout_height="wrap_content"
+	        	android:textSize="14sp"
+	        	android:textColor="#333333"
+	        	android:paddingTop="5dp"
+	        	android:paddingLeft="5dp"
+	        	android:text="@string/title_bluewavename"/>
+			
+			<TextView 
+			    android:id="@+id/txtBluetoothName"
+			    android:layout_width="fill_parent"
+	        	android:layout_height="wrap_content"
+	        	android:textSize="12sp"
+	        	android:textColor="#333333"
+	        	android:paddingLeft="5dp"
+	        	android:text="BLUETOOTH (i.d., BLUEWAVE) NAME GOES HERE"/>
+			
+			<TextView 
+			    android:layout_width="fill_parent"
+	        	android:layout_height="wrap_content"
+	        	android:textSize="14sp"
+	        	android:textColor="#333333"
+	        	android:paddingTop="5dp"
+	        	android:paddingLeft="5dp"
+	        	android:text="@string/title_appid"/>
+			
+			<TextView 
+			    android:id="@+id/txtAppID"
+			    android:layout_width="fill_parent"
+	        	android:layout_height="wrap_content"
+	        	android:textSize="12sp"
+	        	android:textColor="#333333"
+	        	android:paddingLeft="5dp"
+	        	android:text="APP ID GOES HERE"/>
+			
+			<TextView 
+			    android:layout_width="fill_parent"
+	        	android:layout_height="wrap_content"
+	        	android:textSize="14sp"
+	        	android:textColor="#333333"
+	        	android:paddingTop="5dp"
+	        	android:paddingLeft="5dp"
+	        	android:text="@string/title_contextsrequested"/>
+			
+			<TextView 
+			    android:id="@+id/txtContextsRequested"
+			    android:layout_width="fill_parent"
+	        	android:layout_height="wrap_content"
+	        	android:textSize="12sp"
+	        	android:textColor="#333333"
+	        	android:paddingLeft="5dp"
+	        	android:text="CONTEXTS REQUESTED GO HERE"/>
+	
+			<!-- Context Providers -->
+			<TextView
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:background="#1C9933"
+			    android:layout_marginTop="15dp"
+			    android:padding="5dp"
+			    android:text="@string/title_contextproviders"
+			    android:textColor="#FFFFFF"
+			    android:textSize="20sp" />
+			
+			<LinearLayout
+			    android:id="@+id/layoutContextProviders"
+	        	android:layout_width="fill_parent"
+	        	android:layout_height="wrap_content"
+	        	android:layout_margin="5dp"
+	        	android:orientation="vertical" />
+			
+			<!-- Bluewave -->
+			<TextView
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:background="#1C6699"
+			    android:layout_marginTop="15dp"
+			    android:padding="5dp"
+			    android:text="@string/title_scanresults"
+			    android:textColor="#FFFFFF"
+			    android:textSize="20sp" />
+			
+			<TextView
+			    android:id="@+id/txtTimestamp"
+			    android:layout_width="fill_parent"
+	        	android:layout_height="wrap_content"
+	        	android:textSize="14sp"
+	        	android:textColor="#333333"
+	        	android:paddingTop="5dp"
+	        	android:paddingLeft="5dp"/>
+			
+			<LinearLayout
+			    android:id="@+id/layoutBluetooth"
+	        	android:layout_width="fill_parent"
+	        	android:layout_height="wrap_content"
+	        	android:layout_margin="5dp"
+	        	android:orientation="vertical">
+			    
+			</LinearLayout>
+				    
+		</LinearLayout>
+        
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">CollectiveContextAndroidFramework</string>
+    <string name="key_lat">LATITUDE</string>
+    <string name="key_lon">LONGITUDE</string>
+
+</resources>

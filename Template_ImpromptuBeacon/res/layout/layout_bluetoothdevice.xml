@@ -1,0 +1,39 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+            
+    	<ImageView 
+    	    android:id="@+id/imgIcon"
+    	    android:layout_width="40dp"
+	        android:layout_height="40dp"
+	        android:layout_marginBottom="5dp"/>
+    
+        <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@id/imgIcon"
+	        android:orientation="vertical">
+	                
+			<TextView 
+			    android:id="@+id/txtBluetoothID"
+			    android:layout_width="fill_parent"
+	        	android:layout_height="wrap_content"
+	        	android:textSize="16sp"
+	        	android:textColor="#1C6699"
+	        	android:paddingLeft="5dp"
+	        	android:text="BLUETOOTH ID GOES HERE"/>
+			
+			<TextView 
+			    android:id="@+id/txtBluetoothDetails"
+			    android:layout_width="fill_parent"
+	        	android:layout_height="wrap_content"
+	        	android:textSize="12sp"
+	        	android:textColor="#333333"
+	        	android:paddingLeft="5dp"
+	        	android:text="BLUETOOTH DETAILS GO HERE"/>
+				    
+		</LinearLayout>
+
+</RelativeLayout>

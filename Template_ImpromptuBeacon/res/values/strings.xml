@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Impromptu App Beacon</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="title_main">Beacon Settings</string>
+    <string name="title_deviceid">Device ID</string>
+    <string name="title_bluewavename">Bluetooth Name</string>
+    <string name="title_appid">Bluewave App ID</string>
+    <string name="title_contextsrequested">Contexts Requested</string>
+
+    <string name="title_contextproviders">Context Providers</string>
+    <string name="title_scanresults">Bluetooth Scan Results</string>
+    
+</resources>
