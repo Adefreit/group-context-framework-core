@@ -6,12 +6,12 @@
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
 	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/GroupContextFramework"/>
-	<classpathentry exported="true" kind="lib" path="./../libraries/dropbox-core-sdk-1.7.5.jar"/>
-	<classpathentry exported="true" kind="lib" path="./../libraries/jackson-core-2.2.3.jar"/>
-	<classpathentry exported="true" kind="lib" path="./../libraries/jsch-0.1.51.jar"/>
-	<classpathentry exported="true" kind="lib" path="./../libraries/mqtt-client-0.4.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="./../libraries/mail.jar"/>
-	<classpathentry exported="true" kind="lib" path="./../libraries/volley.jar"/>
-	<classpathentry exported="true" kind="lib" path="./../libraries/activation.jar"/>
+	<classpathentry exported="true" kind="lib" path="/GroupContextFramework_SupportLibraries/activation.jar"/>
+	<classpathentry exported="true" kind="lib" path="/GroupContextFramework_SupportLibraries/dropbox-core-sdk-1.7.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="/GroupContextFramework_SupportLibraries/jackson-core-2.2.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="/GroupContextFramework_SupportLibraries/jsch-0.1.51.jar"/>
+	<classpathentry exported="true" kind="lib" path="/GroupContextFramework_SupportLibraries/mail.jar"/>
+	<classpathentry exported="true" kind="lib" path="/GroupContextFramework_SupportLibraries/mqtt-client-0.4.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/GroupContextFramework_SupportLibraries/volley.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
